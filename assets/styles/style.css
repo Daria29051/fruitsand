@@ -6,7 +6,7 @@
       .container {
         display: grid;
         grid-template-columns: repeat (4, 1fr);
-        grid-template-rows: 5% 10% 1fr 20%;
+        grid-template-rows: 2% 5% 1fr 5%;
         min-height: 100vh;
 
       }
@@ -150,5 +150,32 @@
     column-gap: 10px;
     justify-items: center;
 }
+
+.from-the-blog {
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.blog {
+    display: grid;
+    width: 100vw;
+    border: 3px solid sandybrown;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content max-content max-content;
+    justify-items: center;
+    row-gap: 20px;
+    margin-bottom: 60px;
+}
+
+.blog-text {
+    text-align: center;
+    width: 70%;
+}
+
+.title 
+{font-weight: 700;}
+
 
 
