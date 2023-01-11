@@ -1,0 +1,78 @@
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat (4, 1fr);
+        grid-template-rows: 5% 10% 1fr 20%;
+        min-height: 100vh;
+
+      }
+
+      .topline {
+        background-color: black;
+        grid-column: 1/4;
+      }
+      .header {
+        background-color: green;
+        grid-column: 1/4;
+      }
+
+      .main {
+        background-color: white;
+        grid-column: 1/4;   
+      }
+
+      .footer {
+        background-color: green;
+        grid-column: 1/4;
+      }
+
+      .menu {
+        border: 5px solid red;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr, fit-content;
+        gap: 20px;
+        grid-template-areas: 
+        "nav menu-img menu-img menu-img"
+
+        "assortment1 assortment2 assortment3 assortment4";
+    }
+
+    .nav {
+        grid-area: nav;
+        border: 1px solid green;
+        background-color: antiquewhite;
+    }
+
+    .menu-img {
+        background-color:#F5F5F5;
+        grid-area: menu-img;
+        border: 5px solid green;
+    }
+
+    .assortment1 {
+        grid-area: assortment1;
+        border: 1px solid green;
+        object-fit: fill;
+    }
+
+    .assortment2 {
+        grid-area: assortment2;
+        border: 1px solid green;
+    }
+
+    .assortment3 {
+        grid-area: assortment3;
+        border: 1px solid green;
+    }
+
+    .assortment4 {
+        grid-area: assortment4;
+        border: 1px solid green;
+    }
+
+    .assortment-img {
+        width: 100%;
+        height: 100%;
+    }
+
