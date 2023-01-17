@@ -170,6 +170,16 @@
         line-height: 3.5;
     }
 
+    .nav-link:link {
+      color: #999999;
+      text-decoration: none;
+    }
+
+    .nav-link:visited {
+      color: #999999;
+      text-decoration: none;
+    }
+
     .menu-img {
         background-color:#F5F5F5;
         grid-area: menu-img;
@@ -216,7 +226,7 @@
 
     .drink-item1 {
         grid-area:drink-item1;   
-        align-self: center;  
+         
     }
 
     .drink-item2 {
