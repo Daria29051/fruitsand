@@ -184,6 +184,11 @@
         background-color:#F5F5F5;
         grid-area: menu-img;
         border: 5px solid green;
+        
+    }
+
+    .menu-img-img {
+      width: 100%;
     }
 
     .assortment1 {
@@ -301,6 +306,7 @@
     justify-items: center;
     row-gap: 20px;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 
 .blog-text {
